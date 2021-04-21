@@ -12,7 +12,7 @@ module.exports = {
   themeConfig: {
     algolia: {
       apiKey: '530bfcb7fe1db4436aa21b476854b366',
-      indexName: 'docusaurus-2',
+      indexName: 'lido-docs',
 
       // Optional: see doc section below
       contextualSearch: true,
@@ -41,8 +41,7 @@ module.exports = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/Psirex/docusaurus-docs-src/edit/master/docs/',
+          editUrl: 'https://github.com/Psirex/docusaurus-docs-src/edit/master/',
         },
       },
     ],
