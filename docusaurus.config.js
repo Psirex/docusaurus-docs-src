@@ -3,22 +3,22 @@ module.exports = {
   title: 'Lido Docs',
   tagline: 'Dinosaurs are cool',
   url: 'https://psirex.github.io',
-  baseUrl: '/docusaurus-docs/',
+  baseUrl: '/docusaurus-docs-src/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'psirex', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-docs', // Usually your repo name.
+  projectName: 'docusaurus-docs-src', // Usually your repo name.
   themeConfig: {
     algolia: {
-      apiKey: 'YOUR_API_KEY',
-      indexName: 'YOUR_INDEX_NAME',
+      apiKey: '530bfcb7fe1db4436aa21b476854b366',
+      indexName: 'docusaurus-2',
 
       // Optional: see doc section below
       contextualSearch: true,
 
       // Optional: see doc section below
-      appId: 'YOUR_APP_ID',
+      appId: 'ZTKWJO288I',
 
       // Optional: Algolia search parameters
       searchParameters: {},
@@ -43,8 +43,8 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
-        }
+        },
       },
     ],
   ],
-};
+}
