@@ -3,7 +3,7 @@ module.exports = {
   title: 'Lido Docs',
   tagline: 'Dinosaurs are cool',
   url: 'https://psirex.github.io',
-  baseUrl: '/',
+  baseUrl: '/docusaurus-docs-src/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
