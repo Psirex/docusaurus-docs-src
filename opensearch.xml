@@ -4,8 +4,8 @@
   <ShortName>Lido Docs</ShortName>
   <Description>Search Lido Docs</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://psirex.github.io/docusaurus-docs-src/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://psirex.github.io/docusaurus-docs-src/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://psirex.github.io/docusaurus-docs-src/opensearch.xml" />
-  <moz:SearchForm>https://psirex.github.io/docusaurus-docs-src/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://psirex.github.io/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://psirex.github.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://psirex.github.io/opensearch.xml" />
+  <moz:SearchForm>https://psirex.github.io/</moz:SearchForm>
 </OpenSearchDescription>
