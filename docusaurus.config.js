@@ -3,7 +3,7 @@ module.exports = {
   title: 'Lido Docs',
   tagline: 'Dinosaurs are cool',
   url: 'https://psirex.github.io',
-  baseUrl: '/docusaurus-docs-src/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -42,7 +42,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/Psirex/docusaurus-docs-src/edit/master/docs/',
         },
       },
     ],
