@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: '/docusaurus-docs-src/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-32x32.png',
   organizationName: 'psirex', // Usually your GitHub org/user name.
   projectName: 'docusaurus-docs-src', // Usually your repo name.
   themeConfig: {
@@ -41,7 +41,7 @@ module.exports = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Psirex/docusaurus-docs-src/edit/master/',
+          editUrl: 'https://github.com/Psirex/docusaurus-docs-src/blob/master/',
         },
       },
     ],
